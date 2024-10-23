@@ -24,6 +24,11 @@ env:
   IMAGE_NAME: ${{ github.repository }}
   # IMAGE_NAME: green-spaces-backend
 
+  REACT_APP_BACKEND_URL: ${{ vars.REACT_APP_BACKEND_URL }}
+  REACT_APP_DISTRICTS_ENDPOINT: ${{ vars.REACT_APP_DISTRICTS_ENDPOINT }}
+  REACT_APP_AREAS_ENDPOINT: ${{ vars.REACT_APP_AREAS_ENDPOINT }}
+  REACT_APP_FORM_ENDPOINT: ${{ vars.REACT_APP_FORM_ENDPOINT }}
+
 # There is a single job in this workflow. It's configured to run on the latest available version of Ubuntu.
 jobs:
   build-and-push-image:
