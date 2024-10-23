@@ -1,6 +1,6 @@
-//
+import dotenv from 'dotenv';
 
-//dotenv.config();
+dotenv.config();
 
 const {
   REACT_APP_BACKEND_URL,

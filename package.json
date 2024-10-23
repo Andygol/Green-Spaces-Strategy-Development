@@ -2,7 +2,7 @@
 	"name": "green-spaces-strategy-development",
 	"version": "0.2.3",
 	"private": true,
-	"homepage": "https://green-spaces-strategy.org.ua/",
+	"homepage": ".",
 	"dependencies": {
 		"@emotion/react": "^11.11.1",
 		"@emotion/styled": "^11.11.0",
@@ -17,6 +17,7 @@
 		"@types/node": "^16.18.39",
 		"@types/react": "^18.2.16",
 		"@types/react-dom": "^18.2.7",
+		"dotenv": "^16.4.5",
 		"leaflet": "^1.9.4",
 		"maplibre-gl": "^4.1.3",
 		"node-polyfill-webpack-plugin": "^4.0.0",
