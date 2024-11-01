@@ -1,10 +1,10 @@
 import React from 'react';
 import { Button, ButtonProps } from '@mui/material';
 import { trackEvent } from '../utils/trackingUtils';
-import envVars from "../../js/env";
+import { env } from "../../js/env";
 
-const BACKEND_URL = envVars.REACT_APP_BACKEND_URL as string;
-const FORM_ENDPOINT = envVars.REACT_APP_FORM_ENDPOINT as string;
+const BACKEND_URL = env.REACT_APP_BACKEND_URL as string;
+const FORM_ENDPOINT = env.REACT_APP_FORM_ENDPOINT as string;
 const city = "Dnipro";
 const type = "Algorithm_GSSD.pdf";
 
